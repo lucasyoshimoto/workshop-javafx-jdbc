@@ -12,15 +12,15 @@
 			<children>
 				<MenuBar>
 					<menus>
-						<Menu mnemonicParsing="false" text="Cadastro">
+						<Menu mnemonicParsing="false" text="Registration">
 							<items>
-								<MenuItem fx:id="menuItemVendedor" mnemonicParsing="false" onAction="#onMenuItemVendedorAction" text="Vendedor" />
-                        <MenuItem fx:id="menuItemDepartamento" mnemonicParsing="false" onAction="#onMenuItemDepartamentoAction" text="Departamento" />
+								<MenuItem fx:id="menuItemSeller" mnemonicParsing="false" onAction="#onMenuItemSellerAction" text="Seller" />
+                        <MenuItem fx:id="menuItemDepartment" mnemonicParsing="false" onAction="#onMenuItemDepartmentAction" text="Department" />
 							</items>
 						</Menu>
 						<Menu fx:id="menuItemAbout" mnemonicParsing="false" onAction="#onMenuItemAboutAction" text="Help">
 							<items>
-								<MenuItem mnemonicParsing="false" text="About" />
+								<MenuItem mnemonicParsing="false" onAction="#onMenuItemAboutAction" text="About" />
 							</items>
 						</Menu>
 					</menus>
