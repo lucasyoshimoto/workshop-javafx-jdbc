@@ -135,8 +135,5 @@ public class DepartmentFormController implements Initializable {
 		if (fields.contains("name")) {
 			labelErrorName.setText(errors.get("name"));
 		}
-		
-	
 	}
-	
 }
